@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	int n;
-	cout << "Enter the amount of numbers you would like to sort:" << endl;
+	cout << "Enter the amount of integers you would like to sort:" << endl;
   	cin >> n;
     
  	cout << "Enter " << n <<" integers to sort. Hit 'Enter' after each input: " << endl;
