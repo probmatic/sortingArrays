@@ -7,21 +7,18 @@ using namespace std;
 
 int main()
 {
-
-  int n;
-  
-  cout << "Enter the amount of numbers you would like to sort:" << endl;
-  cin >> n;
+	int n;
+	cout << "Enter the amount of numbers you would like to sort:" << endl;
+  	cin >> n;
     
-  cout << "Enter " << n <<" integers to sort. Hit 'Enter' after each input: " << endl;
+ 	cout << "Enter " << n <<" integers to sort. Hit 'Enter' after each input: " << endl;
 	int numbArray[n] = {};
-  
-	for (int i = 0; i < n; i++)
+ 	for (int i = 0; i < n; i++)
 	{
 		cin >> numbArray[i];
 	}
-
 	cout << "The numbers you inputted are: ";
+	
 	for (int i = 0; i < n; i++)
 	{
 		cout << numbArray[i] << " ";
@@ -41,6 +38,7 @@ int main()
 			}
 		}
 	}
+	
 	cout << "Numbers sorted are: ";
 	for (int i = 0; i < n ; i++)
 	{
